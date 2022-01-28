@@ -1,0 +1,295 @@
+*{
+ margin: 0;
+ padding: 0;
+ }
+ ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: white;
+ height: 80px;
+ width: 100%;
+ }
+
+ .navbar{
+ min-width: 50px;
+ background-color: rgba(213, 213, 213, 0.699);
+ opacity: 30px;
+ }
+
+ .kotak1 {
+ float: right;
+ font-family: sans-serif;
+ font-weight: 600;
+}
+
+ li {
+ float: left;
+ padding: 10px;
+ }
+
+ li a {
+ display: block;
+ color: black;
+ text-align: center;
+ padding: 14px 16px;
+ margin-top: 10px;
+ text-decoration: none;
+ }
+
+ .text{
+	margin-left: 70px;
+
+ }
+
+
+ .jumbotron{
+
+ height: 500px;
+ margin-top: 20px;
+ font-family: sans-serif;
+ background-image: url('./image/mantar.jpeg');
+ background-size: cover;
+ background-position-y: -230px;
+ }
+
+ .tekstur img{
+ position: absolute;
+ top: 400px;
+
+ }
+
+ .float {
+ float: right;
+ }
+
+ .kotak2{
+ margin-left: 25px;
+ padding-top: 100px;
+ color:white
+ }
+
+ .jumbotron .kotak2 h1{
+ font-size: 50px;
+
+ }
+
+ .button01{
+
+ width: 150px;
+ height: 40px;
+ background-color: #FFF338;
+ text-align: center;
+ padding-top: 10px;
+ display: inline-block;
+margin-top: 20px;
+ border-radius: 20px;
+
+ }
+
+ .button{
+ width: 150px;
+ height: 40px;
+ background-color: #8B4513;
+ text-align: center;
+ padding-top: 10px;
+ display: inline-block;
+ margin-top: 20px;
+ border-radius: 20px;
+ }
+
+ .button01{
+ margin-left: 10px;
+ background-color: #8B4513;
+ }
+
+ .button a{
+ text-decoration: none;
+ font-size: 18px;
+ color: white;
+ text-shadow: 1px 1px 1px 1px black;
+ }
+
+ .button01 a{
+ text-decoration: none;
+ font-size: 18px;
+ color: white;
+}
+
+
+ /* content */
+ .hijau{
+ color: #6ECB63;
+ }
+ .content1{
+ margin-top: 50px;
+ }
+ .heading h1{
+ position: relative;
+ z-index: 50;
+ font-size: 30px;
+ font-family: sans-serif;
+ text-align: center;
+ }
+
+ table{
+ margin-left: 370px;
+ border-collapse: collapse;
+ }
+
+ th, td {
+ padding: 15px;
+ text-align: left;
+ }
+
+ tr:nth-child(even) {background-color: #f2f2f2;}
+
+ .penawaran-box {
+ width: 100%;
+ padding: 50px 0;
+ text-align: center;
+ background-color: #F08080;
+ margin-top: 20px;
+ display: none;
+ }
+
+ #myDIV {
+ margin-top: 10px;
+ width: 100%;
+ padding: 50px 0;
+ text-align: center;
+ background-color:#F08080;
+ display: none;
+ }
+
+ .button3{
+ margin-top: 40px;
+ margin-left: 420px;
+ width:650px;
+ height:50px;
+ cursor: pointer;
+ color: white;
+ text-shadow: 1px 1px 1px black;
+ border-radius: 5px;
+background-image: linear-gradient(160deg, #B1E693ed, #6ECB63);
+
+ /* padding: 10px 50px 10px; */
+ }
+
+ .box-mantar{
+ width: 50%;
+ min-height: 100px;
+ text-align: justify;
+ margin-top: 30px;
+
+ }
+
+ .box-mantar1{
+ width: 50%;
+ min-height: 100px;
+
+ }
+
+ .box-mantar1 img:hover{
+ transform: rotate(5deg);
+ transition: 0.50s linear;
+ }
+
+ .box-mantar span{
+ text-align: justify;
+ font-family: sans-serif;
+ }
+
+ .button4{
+ width: 300px;
+ height: 50px;
+ background-color: blue;
+ margin-top: 10px;
+ text-align: center;
+ line-height: 40px;
+ border-radius: 20px;
+ }
+
+ .button4:hover{
+ transition-timing-function: 2s linear;
+ background-color:rgb(32, 32, 131);
+ }
+
+ .button4 a{
+ text-decoration: none;
+color: white;
+ }
+
+ .content3{
+ margin-top: 30px;
+ }
+
+ .content3 h1{
+ margin-bottom: 30px;
+ font-size: 30px;
+ font-family: sans-serif;
+ text-align: center;
+
+ }
+ 
+
+
+ .kontak{
+ width: 450px;
+ height: 250px;
+ background-color: blue;
+ margin-top: 30px;
+ margin-left: 220px;
+ }
+
+ /* form */
+ .box-form{
+ padding: 20px 20px 30px;
+ width: 500px;
+ min-height: 20px;
+ background-color: #CFDAC8;
+ margin-left: 470px;
+ border-radius: 20px;
+ }
+
+ .form{
+ margin-left: 100px;
+ width: 300px;
+ min-width: 20px;
+ display: block;
+ }
+
+ .form button,input,textarea{
+ width: 100%;
+ padding-top: 10px;
+ margin-top: 10px;
+}
+ /* akhir form */
+
+ .form button{
+ border-radius: 10px;
+ padding: 10px 10px 10px;
+ }
+
+
+ /* akhir content */
+
+ .footer{
+ margin-top: 30px;
+ text-align: center;
+ padding-top: 20px;
+ background-color:pink;
+ }
+ .footer a{
+ text-decoration: none;
+ color: black;
+ }
+
+ .navbar img{
+ width: 100px;
+ height: 80px;
+ position: absolute;
+ top:0px;
+ bottom: 10px;
+ }
